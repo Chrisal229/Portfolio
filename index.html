@@ -6,62 +6,79 @@
   <title>Chrisal A | Cybersecurity Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-    }
     body {
-      background-color: #0d1117;
-      color: #c9d1d9;
-      line-height: 1.6;
-      padding: 2rem;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #141E30, #243B55);
+      color: #ffffff;
     }
     .container {
-      max-width: 800px;
+      max-width: 1000px;
       margin: 0 auto;
+      padding: 3rem 2rem;
     }
-    h1, h2, h3 {
-      color: #58a6ff;
+    header {
+      text-align: center;
+      padding: 2rem 0;
     }
-    a {
-      color: #58a6ff;
-      text-decoration: none;
-    }
-    .section {
-      margin-top: 2rem;
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: #00ffe1;
     }
     .tagline {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
+      font-size: 1.5rem;
+      color: #ffcc00;
     }
-    .bio {
-      margin-top: 1rem;
+    section {
+      margin: 3rem 0;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 2rem;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    }
+    section h2 {
+      border-bottom: 2px solid #00ffe1;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #00ffe1;
     }
     ul {
-      margin-top: 0.5rem;
-      padding-left: 1.2rem;
+      padding-left: 1.5rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: #00ffe1;
+      text-decoration: none;
     }
     .blog {
-      background-color: #161b22;
+      background-color: rgba(0, 0, 0, 0.4);
       padding: 1rem;
-      border-radius: 0.5rem;
+      border-radius: 10px;
       margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      color: #ccc;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Chrisal A</h1>
-    <p class="tagline">Cybersecurity Analyst | Bug Hunter | Ethical Hacker</p>
+    <header>
+      <h1>Chrisal A</h1>
+      <p class="tagline">Cybersecurity Analyst | Bug Hunter | Ethical Hacker</p>
+    </header>
 
-    <div class="section bio">
+    <section>
       <h2>About Me</h2>
       <p>I’m currently pursuing my final year of BCA with one semester remaining. I’ve completed certifications like CEH, A+, N+, and CCNA. I’m actively working as a bug bounty hunter and currently interning at Selfmade Ninja Academy to sharpen my real-world cybersecurity skills.</p>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
       <h2>Certifications</h2>
       <ul>
         <li>CEH (Certified Ethical Hacker)</li>
@@ -69,30 +86,34 @@
         <li>CompTIA Network+ (N+)</li>
         <li>CCNA (Cisco Certified Network Associate)</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
       <h2>Experience</h2>
       <ul>
         <li>Bug Bounty Hunter – Reporting vulnerabilities across platforms</li>
         <li>Intern – Selfmade Ninja Academy</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
       <h2>Links</h2>
       <ul>
         <li><a href="https://www.linkedin.com/in/chrisalalphonse" target="_blank">LinkedIn</a></li>
       </ul>
-    </div>
+    </section>
 
-    <div class="section">
+    <section>
       <h2>Blog</h2>
       <div class="blog">
         <h3>Coming Soon...</h3>
         <p>I’ll be posting writeups on CTF challenges, bug bounty tips, and cybersecurity insights here.</p>
       </div>
-    </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Chrisal A | Designed with 💻 and ☕</p>
+    </footer>
   </div>
 </body>
 </html>
